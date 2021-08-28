@@ -1,0 +1,347 @@
+.btn{
+    margin:1rem 0;
+    padding:0.5rem 1rem;
+    border:1px solid $primaryColor;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    font-size:1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+     border-radius: 20px; 
+}
+.btnColor{
+    background-color: $primaryColor;
+    color:#ffff;
+    font-weight: 100;
+}
+h2{
+    font-size:2.5rem;
+    padding:0.5rem 0;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin:2rem 0;
+}
+
+h4{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color:$secTextColor;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin:1rem 0;
+}
+h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+h6{
+    font-size:1.1rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color:$secTextColor;
+    line-height: 1.5;
+}
+/**************Header********************/
+.header-top{
+    
+    width:100%;
+    background-color: $primaryColor; 
+    color:#ffff;
+    font-size: 1rem;
+    padding:1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.address{
+    margin-right:0.8rem;
+    letter-spacing: 1.1px;
+    padding:0 0.3rem;
+}
+
+.email i{
+    margin-left:0.5rem;
+    
+}
+
+.email a{
+    text-decoration: none;
+    color:#ffff;
+    // padding:0 0.3rem;
+}
+
+
+.header-socialLinks >li{
+    padding:1rem;
+    
+}
+
+.header-socialLinks a{
+    color:#ffff;
+    
+}
+
+/***********Header  navigation bars***********/
+.header-bottom{
+    background-color:$tertiaryColor;
+    color:$priTextColor;
+
+    font-size: 1rem;
+    // padding:2rem;
+    font-weight: 600;
+
+}
+
+.brand-logo a{
+    margin-left:1rem;
+    font-size:2rem;
+    font-weight:900;
+    // padding: 2rem;
+}
+.brand-logo a{
+    color:$priTextColor;
+}
+
+.brand-logo strong{
+    color:$primaryColor;
+}
+.nav-bar li{
+    padding:0 1.2rem;
+    text-transform: capitalize;
+    font-size:1.2rem;
+}
+
+.nav-bar a{
+   color:$priTextColor;
+      
+}
+
+.nav-bar .nav-list{
+    padding: 2.5rem 1rem;
+}
+.nav-bar .nav-list:hover{
+
+    color:#ffff;
+    background-color: #eb5f61;
+    // padding:2.1rem 1rem;
+}
+
+/***********Sub-menus for Pages and Blog**********/
+.pages-subMenu{
+    position: absolute;
+    background-color:$tertiaryColor;
+    // box-shadow:0 3px 8px rgba(0,0,0,0.3);
+    width:160px;
+    text-align: center;
+    left:50%;
+    top:90px;/*remember to keep it close else hover wont work*/
+    transform: translateX(-50%);
+    display: none;
+    z-index: 97;
+}
+.pages-list i{
+    font-size:10px;
+}
+
+
+.pages-list{
+    position: relative;
+}
+
+.pages-list:hover  .pages-subMenu{
+    display: inline-block;
+   
+}
+
+.pages-subMenu li{
+    margin-right: 16px;
+    padding:8px 0;
+    
+}
+.sub-list{
+    padding: 1rem 2.2rem;
+}
+.pages-subMenu .sub-list:hover{
+    // padding:1rem 1.2rem;
+    background-color: #eb5f61;
+}
+.bars i{
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+/*****************Hero Section*************/
+
+.hero{
+    background: url(../media/banner-1.jpg);
+    width:100%;
+    height:85vh;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.intro{
+    padding: 12rem 3rem;
+}
+
+
+/***************Our Services***************/
+.services{
+    padding:80px 0;
+    text-align:center;
+}
+
+.service-heading{
+    margin-bottom: 2rem;
+    padding:2rem;
+}
+
+.service-heading p{
+    margin-top:1rem;
+    
+}
+.service-box{
+    border:1px solid $secTextColor;
+    border-radius: 10px;
+    padding:1.2rem;
+}
+
+.serviceImg{
+    margin-top:1rem;
+}
+.service-desc p{
+    font-size:1rem;
+    color:$secTextColor;  
+    line-height: 1.2;
+    letter-spacing:1px;
+    // padding:0 1.5em;
+    margin:0.5rem;
+
+}
+
+.btn-text a{
+    color:$primaryColor;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.btn-text{
+    margin:60px 0;
+}
+
+.btn-text a:hover{
+    color:#ffff;
+    background-color: $primaryColor;
+}
+/*********************Get Solutions***************/
+.solutions{
+    background-color: #f8f9fa;
+}
+
+/**************Consulting Firm***********/
+.consulting-desc i{
+    font-size: 4rem;
+    color:$primaryColor;
+}
+
+/********************Request Quote*****************/
+.req-quote{
+    background-color: $primaryColor;
+    color:#ffff;
+}
+
+.req-quote p{
+    font-size: 1.1rem;
+}
+
+.reqQuote-btn a:hover{
+    background-color: #ffff;
+    color:$primaryColor;
+}
+
+.reqQuote-btn a{
+    color:#ffff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    border:1px solid $tertiaryColor;   
+}
+
+.reqQuote-btn{
+    margin:1rem;
+}
+
+/**********Industry services******/
+.description{
+    padding:3rem 0;
+    text-align: left;
+}
+
+/************OUr Clients****************/
+.clients{
+    background-color: #f8f9fa;
+    
+}
+
+.clientImg{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+.clientImg:hover{
+    filter:none;
+    opacity: 1;
+}
+
+/************ Footer*************/
+.footer{
+    background-color: #343A40;
+    color:#bdbdbd;
+}
+
+.footer-addr i,a,span{
+    color:#bdbdbd;
+    
+}
+
+.footer-addr span{
+    font-size:1rem;
+    padding: 1rem; 
+    
+}
+.footer-addr >a{
+    padding:1rem;
+}
+.footer-col li{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+.footer-socialLinks{
+    padding:0.7rem;
+}
+
+.copy-rights{
+    color:#bdbdbd;
+    font-size:0.8rem;
+    font-weight: 200;
+    padding-top:3rem;
+    line-height: 1.5;
+    
+}
+.copy-rights strong{
+    font-weight: 600;
+}
+
+
+
+

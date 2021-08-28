@@ -1,0 +1,60 @@
+/***********Custom Code ***********/
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family: $fontFamily;
+}
+
+html{
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+h1{
+    font-size:4.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container{
+    max-width:1400px;
+    width:100%;
+    margin:0 auto;
+    padding:0 1rem;
+    // border:1px solid black;
+}
+
+.full-width{
+    width:100%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.padding{
+        padding:80px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margins{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+
+}
