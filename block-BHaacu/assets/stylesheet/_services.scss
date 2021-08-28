@@ -1,0 +1,56 @@
+.service-pg{
+    background-color: $primaryColor;
+    color:#ffff;
+
+}
+
+.service-pg h4{
+    color:#ffff;
+}
+
+.our-services h5{
+    color:$primaryColor;
+}
+
+.line{
+    // border:0;
+    border:1px solid rgb(236, 236, 236);
+}
+
+.best-deal-col2 p{
+    font-size:1.1rem;  
+    line-height: 1.5;
+    letter-spacing:1px;
+    // padding:0 1.5em;
+    margin:1rem;
+
+}
+
+.best-deal{
+    background-color: $primaryColor;
+    color:#ffff;
+}
+
+.best-deal-col1 h5{
+    text-align: center;
+    margin:1rem 0;
+   
+}
+
+
+.best-deal-btn a:hover{
+    background-color: #ffff;
+    color:$primaryColor;
+}
+
+.best-deal-btn a{
+    color:#ffff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    border:1px solid $tertiaryColor;
+    
+}
+
+.best-deal-btn{
+    margin:1rem;
+}
